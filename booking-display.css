@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+.action-btn {
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.approve {
+    background-color: #4CAF50;
+    color: white;
+}
+.decline {
+    background-color: #f44336;
+    color: white;
+}
+.pending {
+    color: orange;
+    font-weight: bold;
+}
+.approved {
+    color: green;
+    font-weight: bold;
+}
+.declined {
+    color: red;
+    font-weight: bold;
+}
+.toggle-status {
+    background-color: black;
+    color: white;
+}
